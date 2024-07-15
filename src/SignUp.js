@@ -38,7 +38,7 @@ const SignUp = () => {
   return (
     <div>
       <h1>Sign Up Page</h1>
-      <p>Already have an account? <Link to="/login" className='Link'>Sign In</Link></p>
+      <p className='p'>Already have an account? <Link to="/login" className='Link'>Sign In</Link></p>
       <form onSubmit={handleSubmit}>
         <input type="text" name="user_firstname" placeholder="First Name" value={formData.user_firstname} onChange={handleChange} required /><br />
         <input type="text" name="user_lastname" placeholder="Last Name" value={formData.user_lastname} onChange={handleChange} required /><br />

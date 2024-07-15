@@ -43,7 +43,7 @@ const Login = ({ setUser }) => {
         <input type="password" name="user_password" placeholder="Password" value={formData.user_password} onChange={handleChange} required /><br />
         <button type="submit">Log In</button>
       </form>
-      <p>Don't have an account? <Link to="/signup" className='Link'>Sign Up</Link></p>
+      <p className='p'>Don't have an account? <Link to="/signup" className='Link'>Sign Up</Link></p>
     </div>
   );
 };
